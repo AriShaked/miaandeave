@@ -10,8 +10,8 @@ echo $name;
 echo $email;
 echo $message;
 
-mail($to,$subject,$message);
-
+return mail($to,$subject,$message); 
+echo (mail($to,$subject,$message));
 
 //header("Location: http://localhost/index.html");
 
